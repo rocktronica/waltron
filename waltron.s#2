@@ -3536,7 +3536,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-35.56" y1="39.37" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="VR1" gate="R?" pin="WIPER"/>
 <wire x1="137.16" y1="30.48" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>

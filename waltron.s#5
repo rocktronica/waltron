@@ -3231,7 +3231,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="supply" width="0.508" drill="0">
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -3506,7 +3510,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="149.86" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V+" class="0">
+<net name="V+" class="1">
 <segment>
 <pinref part="IC1" gate="P" pin="VSS"/>
 <wire x1="-35.56" y1="33.02" x2="-35.56" y2="40.64" width="0.1524" layer="91"/>

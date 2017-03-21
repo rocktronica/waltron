@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -145,6 +145,9 @@
 <wire x1="45.39" y1="46.98" x2="0" y2="46.98" width="0" layer="20"/>
 <wire x1="0" y1="46.98" x2="0" y2="0" width="0" layer="20"/>
 <text x="5.69253125" y="30.9584625" size="0.8128" layer="21" font="vector" ratio="10">C1</text>
+<text x="31.817175" y="42.70133125" size="1.778" layer="21" font="vector" ratio="20">WALTRON</text>
+<text x="31.817178125" y="41.4812875" size="0.8128" layer="21" font="vector" ratio="10">2999</text>
+<text x="31.868003125" y="39.498728125" size="0.8128" layer="21" font="vector" ratio="10">tommy.sh</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

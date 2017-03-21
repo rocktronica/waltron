@@ -3302,7 +3302,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="179.705" y="41.656" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="189.611" y="41.656" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="IC1" gate="P" x="-25.4" y="25.4" rot="R180"/>
+<instance part="IC1" gate="P" x="-25.4" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="-28.575" y="26.67" size="1.778" layer="95"/>
+</instance>
 <instance part="BATTERY" gate="G$1" x="-53.34" y="50.8" rot="MR180"/>
 <instance part="SPEAKER" gate="G$1" x="200.66" y="38.1" rot="R180"/>
 <instance part="D3" gate="G$1" x="180.34" y="73.66"/>
@@ -3507,6 +3509,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="V+" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="VSS"/>
+<wire x1="-33.02" y1="25.4" x2="-33.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="33.02" x2="-25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="33.02" x2="-25.4" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="BATTERY" gate="G$1" pin="1"/>
@@ -3558,7 +3562,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="137.16" y="-27.94"/>
 <pinref part="IC1" gate="P" pin="VDD"/>
 <wire x1="-25.4" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="17.78" x2="-25.4" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="20.32" x2="-25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="20.32" x2="-25.4" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-25.4" y="-27.94"/>
 <wire x1="-40.64" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-40.64" y="35.56"/>

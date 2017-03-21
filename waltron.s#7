@@ -3258,6 +3258,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-1N4148" value=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3315,6 +3316,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D2" gate="G$1" x="93.98" y="15.24"/>
 <instance part="P+1" gate="1" x="-45.72" y="66.04"/>
 <instance part="GND1" gate="1" x="-45.72" y="30.48"/>
+<instance part="C4" gate="G$1" x="73.66" y="0" smashed="yes" rot="R270">
+<attribute name="NAME" x="69.215" y="4.064" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="74.549" y="4.064" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>

@@ -3532,10 +3532,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,162.56,55.88,U1,V+,VSS,,,"/>
-<approved hash="104,1,162.56,40.64,U1,V-,VDD,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>

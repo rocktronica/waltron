@@ -1007,6 +1007,13 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$13">
 <contactref element="R3" pad="P$2"/>
+<contactref element="VR1" pad="E"/>
+<wire x1="6.27486875" y1="-18.97" x2="40.64" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="VR1" pad="S"/>
+<contactref element="U1" pad="3"/>
+<wire x1="3.77486875" y1="-13.97" x2="26.67" y2="22.225" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

@@ -131,6 +131,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -354,32 +356,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="TRIMPOT-PTH-3386U">
-<description>&lt;h3&gt;Trimpot - PTH, Trimpot w/ finger-adjustable knob&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/9806"&gt;Trimpot 10K with Knob&lt;/a&gt; (COM-09806)&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/General/TSR-3386.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="0" y="0.575" radius="4" width="0.127" layer="51"/>
-<wire x1="-4.765" y1="-4.765" x2="-4" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.765" x2="4.765" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="4.765" y1="-4.765" x2="4.765" y2="4.765" width="0.2032" layer="21"/>
-<wire x1="4.765" y1="4.765" x2="-4.765" y2="4.765" width="0.2032" layer="21"/>
-<wire x1="-4.765" y1="4.765" x2="-4.765" y2="-4.765" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="2.2" x2="-0.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="2.2" x2="-0.5" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="-1.8" x2="0.5" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-1.8" x2="0.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="0.5" y1="2.2" x2="1.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="0" y1="3.7" x2="-1.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="2.2" x2="0" y2="3.7" width="0.127" layer="51"/>
-<wire x1="-4" y1="-4.765" x2="-4" y2="-4.365" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.365" x2="4" y2="-4.365" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.365" x2="4" y2="-4.765" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="-0.015" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="0" y="-0.015" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="2.54" y="-0.015" drill="1.016" diameter="1.8796"/>
-<text x="0" y="4.953" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Switches">
@@ -591,6 +567,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="adafruit">
+<packages>
+<package name="6MM">
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.6096" layer="21"/>
+<wire x1="1.778" y1="0" x2="1.905" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="0" x2="-1.778" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.778" x2="0" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="1.27" x2="1.397" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.397" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.397" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.397" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="-3.2379" y1="-0.6476" x2="0" y2="-3.302" width="0.1524" layer="21" curve="78.692956" cap="flat"/>
+<wire x1="0" y1="-3.302" x2="3.2426" y2="-0.6236" width="0.1524" layer="21" curve="79.114357" cap="flat"/>
+<wire x1="-3.2278" y1="0.6725" x2="-0.889" y2="3.175" width="0.1524" layer="21" curve="-62.588748" cap="flat"/>
+<wire x1="0.889" y1="3.175" x2="3.2278" y2="0.6725" width="0.1524" layer="21" curve="-62.588748" cap="flat"/>
+<circle x="0" y="0" radius="3.302" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="1.397" width="0.1524" layer="21"/>
+<pad name="S" x="0" y="2.5" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="E" x="2.5" y="-2.5" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="A" x="-2.5" y="-2.5" drill="1" diameter="1.6764" shape="octagon"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.302" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0.762" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-1.524" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
 </package>
 </packages>
 </library>
@@ -841,11 +844,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="28.9043875" y="29.21" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="30.479996875" y="26.1936125" size="0.8128" layer="27" font="vector" ratio="10" align="bottom-center"/>
 </element>
-<element name="VR1" library="SparkFun-Resistors" package="TRIMPOT-PTH-3386U" value="5k" x="36.83" y="10.16" smashed="yes">
-<attribute name="SF_SKU" value="COM-09806" x="36.83" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="PROD_ID" value="RES-09730" x="36.83" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.677521875" y="15.519678125" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
-</element>
 <element name="BATTERY" library="SparkFun-Connectors" package="1X02" value="9v" x="5.08" y="41.91" smashed="yes">
 <attribute name="NAME" x="3.81" y="43.561175" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
@@ -878,6 +876,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="13.408296875" y="9.221209375" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="19.05" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
+<element name="VR1" library="adafruit" package="6MM" value="5K" x="3.77486875" y="-16.47"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1000,23 +999,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D3" pad="2"/>
 <contactref element="BATTERY" pad="2"/>
 <contactref element="IC1" pad="8"/>
-<contactref element="VR1" pad="3"/>
 <wire x1="26.67" y1="24.765" x2="38.735" y2="34.925" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="19.685" x2="26.67" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="12.065" y1="24.13" x2="26.67" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="38.1" x2="12.065" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="41.91" x2="5.08" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="10.145" x2="26.67" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R3" pad="P$2"/>
-<contactref element="VR1" pad="1"/>
-<wire x1="34.29" y1="10.145" x2="40.64" y2="3.81" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$16">
-<contactref element="VR1" pad="2"/>
-<contactref element="U1" pad="3"/>
-<wire x1="36.83" y1="10.145" x2="26.67" y2="22.225" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

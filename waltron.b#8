@@ -1149,6 +1149,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="28.956" y1="21.971" x2="28.8925" y2="21.9075" width="0.254" layer="1"/>
 <wire x1="44.45" y1="33.528" x2="44.47533125" y2="33.580953125" width="0.254" layer="1"/>
 </signal>
+<signal name="N$18">
+<contactref element="R4" pad="P$2"/>
+<contactref element="U$1" pad="4"/>
+<wire x1="7.6708" y1="-14.9924" x2="29.5275" y2="41.5925" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <errors>
 <approved hash="18,30,15f0c0bfb7a8104b"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000000123031" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -868,7 +868,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="18.415" y="15.748" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="D3" library="adafruit" package="LED5MMRGB" value="5MMRGBLED" x="38.209234375" y="37.808790625" smashed="yes">
-<attribute name="NAME" x="35.034234375" y="40.983790625" size="1.27" layer="21"/>
+<attribute name="NAME" x="35.399440625" y="33.760590625" size="0.8128" layer="21" font="vector" ratio="10"/>
 </element>
 </elements>
 <signals>

@@ -982,6 +982,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="R5" pad="P$2"/>
+<contactref element="D3" pad="1"/>
+<wire x1="32.7025" y1="41.5925" x2="36.050234375" y2="38.777190625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+" class="1">
 <contactref element="BATTERY" pad="1"/>

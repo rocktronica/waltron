@@ -867,7 +867,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="18.450678125" y="19.4453" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="18.415" y="15.748" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="U$1" library="adafruit" package="LED5MMRGB" value="5MMRGBLED" x="38.209234375" y="37.808790625"/>
+<element name="D3" library="adafruit" package="LED5MMRGB" value="5MMRGBLED" x="38.209234375" y="37.808790625"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -982,6 +982,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="R5" pad="P$2"/>
+<contactref element="D3" pad="1"/>
+<wire x1="32.7025" y1="41.5925" x2="36.050234375" y2="38.777190625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+" class="1">
 <contactref element="BATTERY" pad="1"/>
@@ -999,7 +1001,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="BATTERY" pad="2"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="VR1" pad="A"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="D3" pad="3"/>
 <wire x1="41.97533125" y1="28.580953125" x2="48.895" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="28.8925" y1="24.4475" x2="41.97533125" y2="28.580953125" width="0" layer="19" extent="1-1"/>
 <wire x1="28.8925" y1="19.3675" x2="28.8925" y2="24.4475" width="0" layer="19" extent="1-1"/>
@@ -1019,7 +1021,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$18">
 <contactref element="R4" pad="P$2"/>
-<contactref element="U$1" pad="4"/>
+<contactref element="D3" pad="4"/>
 <wire x1="40.368234375" y1="36.840390625" x2="29.5275" y2="41.5925" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>

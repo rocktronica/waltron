@@ -1132,6 +1132,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="34.417" y1="29.972" x2="34.417" y2="34.671" width="0.508" layer="1"/>
 <wire x1="28.8925" y1="24.4475" x2="34.417" y2="29.972" width="0.508" layer="1"/>
 <wire x1="7.112" y1="42.672" x2="6.985" y2="42.545" width="0.508" layer="1"/>
+<contactref element="U$1" pad="3"/>
+<wire x1="6.4008" y1="-13.0556" x2="13.716" y2="24.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R3" pad="P$2"/>
@@ -1148,6 +1150,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44.45" y1="33.528" x2="41.275" y2="33.528" width="0.254" layer="1"/>
 <wire x1="28.956" y1="21.971" x2="28.8925" y2="21.9075" width="0.254" layer="1"/>
 <wire x1="44.45" y1="33.528" x2="44.47533125" y2="33.580953125" width="0.254" layer="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="R4" pad="P$2"/>
+<contactref element="U$1" pad="4"/>
+<wire x1="7.6708" y1="-14.9924" x2="29.5275" y2="41.5925" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

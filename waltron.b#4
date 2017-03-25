@@ -867,7 +867,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="18.450678125" y="19.4453" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="18.415" y="15.748" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="D3" library="adafruit" package="LED5MMRGB" value="5MMRGBLED" x="38.209234375" y="37.808790625"/>
+<element name="D3" library="adafruit" package="LED5MMRGB" value="5MMRGBLED" x="38.209234375" y="37.808790625" smashed="yes">
+<attribute name="NAME" x="35.034234375" y="40.983790625" size="1.27" layer="21"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -982,6 +984,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="R5" pad="P$2"/>
+<contactref element="D3" pad="1"/>
+<wire x1="32.7025" y1="41.5925" x2="36.050234375" y2="38.777190625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+" class="1">
 <contactref element="BATTERY" pad="1"/>

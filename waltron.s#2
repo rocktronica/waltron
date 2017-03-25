@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3201,7 +3201,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="99.568" y="-5.08" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="D3" gate="G$1" x="208.28" y="72.39" smashed="yes" rot="MR90">
-<attribute name="NAME" x="209.55" y="64.77" size="1.778" layer="94" rot="MR90"/>
+<attribute name="NAME" x="211.973553125" y="69.741753125" size="1.778" layer="94" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -3398,6 +3398,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="64.77" x2="193.04" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
 <net name="V+" class="1">

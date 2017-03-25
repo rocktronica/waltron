@@ -3124,7 +3124,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="U$1" library="adafruit" deviceset="5MMRGBLED" device=""/>
+<part name="D3" library="adafruit" deviceset="5MMRGBLED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3200,7 +3200,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="99.314" y="-10.16" size="1.778" layer="96" font="vector" rot="MR90"/>
 <attribute name="NAME" x="99.568" y="-5.08" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="U$1" gate="G$1" x="208.28" y="72.39" rot="MR90"/>
+<instance part="D3" gate="G$1" x="208.28" y="72.39" smashed="yes" rot="MR90">
+<attribute name="NAME" x="213.36" y="73.66" size="1.778" layer="94" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3396,6 +3398,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="64.77" x2="193.04" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
 <net name="V+" class="1">
@@ -3460,7 +3463,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="VR1" gate="G$1" pin="A"/>
 <junction x="144.78" y="-48.26"/>
 <wire x1="144.78" y1="27.94" x2="144.78" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="D3" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="72.39" x2="186.69" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="72.39" x2="186.69" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
@@ -3484,7 +3487,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$18" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="RED"/>
+<pinref part="D3" gate="G$1" pin="RED"/>
 <wire x1="157.48" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>

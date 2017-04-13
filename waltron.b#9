@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -153,16 +153,6 @@
 <text x="2.581103125" y="39.37811875" size="0.8128" layer="21" font="vector" ratio="10">+</text>
 <text x="8.133284375" y="39.39013125" size="0.8128" layer="21" font="vector" ratio="10">-</text>
 <text x="39.754675" y="40.79633125" size="1.778" layer="1" font="vector" ratio="20">WALTRON</text>
-<wire x1="2.8575" y1="42.545" x2="51.1175" y2="42.545" width="0.4064" layer="21"/>
-<wire x1="2.8575" y1="2.54" x2="2.8575" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="2.8575" y1="11.43" x2="2.8575" y2="42.545" width="0.4064" layer="21"/>
-<wire x1="51.1175" y1="0.635" x2="51.1175" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="51.1175" y1="11.43" x2="51.1175" y2="42.2275" width="0.4064" layer="21"/>
-<wire x1="2.8575" y1="11.43" x2="26.9875" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="26.9875" y1="11.43" x2="51.1175" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="3.175" y1="8.5725" x2="50.8" y2="8.5725" width="0.4064" layer="21"/>
-<wire x1="26.9875" y1="1.905" x2="26.9875" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="2.54" y1="2.2225" x2="50.8" y2="2.2225" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -788,7 +778,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="19.73516875" y="39.293834375" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="PR1" library="SparkFun-Sensors" package="PHOTOCELL-KIT" value="" x="15.24" y="5.3975" smashed="yes">
-<attribute name="NAME" x="15.375728125" y="1.898265625" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<attribute name="NAME" x="15.375728125" y="7.930765625" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value="COMP-09129" x="15.24" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="SEN-09088" x="15.24" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="15.24" y="3.2385" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -802,25 +792,25 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PROD_ID" value="RES-12182" x="9.4089375" y="22.30064375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PR2" library="SparkFun-Sensors" package="PHOTOCELL-KIT" value="" x="46.0375" y="5.3975" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.255834375" y="2.74938125" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="45.938334375" y="8.78188125" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="COMP-09129" x="46.0375" y="5.3975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="SEN-09088" x="46.0375" y="5.3975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="46.0375" y="7.5565" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="PR3" library="SparkFun-Sensors" package="PHOTOCELL-KIT" value="" x="39.37" y="5.3975" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.40408125" y="2.6010625" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="39.40408125" y="8.6335625" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="COMP-09129" x="39.37" y="5.3975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="SEN-09088" x="39.37" y="5.3975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39.37" y="7.5565" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_PTH_6.0MM" value="" x="7.3025" y="5.3975" smashed="yes">
-<attribute name="NAME" x="7.251671875" y="0.9020125" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<attribute name="NAME" x="3.441671875" y="5.3470125" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value=" SWCH-08441" x="7.3025" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="COM-00097" x="7.3025" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.3025" y="2.2225" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_PTH_6.0MM" value="" x="31.4325" y="5.3975" smashed="yes">
-<attribute name="NAME" x="31.625240625" y="0.796159375" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<attribute name="NAME" x="28.132740625" y="9.051159375" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value=" SWCH-08441" x="31.4325" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="SF_SKU" value="COM-00097" x="31.4325" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.4325" y="2.2225" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -894,11 +884,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C1" pad="2"/>
 <wire x1="17.78" y1="35.56" x2="17.78" y2="33.02" width="0.254" layer="1"/>
 <wire x1="17.145" y1="33.655" x2="17.78" y2="33.02" width="0.254" layer="16"/>
-<wire x1="9.2075" y1="33.655" x2="17.145" y2="33.655" width="0.254" layer="16"/>
-<wire x1="7.9375" y1="35.56" x2="8.5725" y2="34.925" width="0.254" layer="16"/>
-<wire x1="8.5725" y1="34.925" x2="9.2075" y2="33.655" width="0.254" layer="16"/>
+<wire x1="8.5725" y1="33.655" x2="17.145" y2="33.655" width="0.254" layer="16"/>
+<wire x1="7.9375" y1="35.56" x2="7.9375" y2="34.29" width="0.254" layer="16"/>
+<wire x1="7.9375" y1="34.29" x2="8.5725" y2="33.655" width="0.254" layer="16"/>
 <wire x1="7.9375" y1="35.56" x2="7.911978125" y2="35.788234375" width="0.254" layer="16"/>
-<wire x1="8.5725" y1="34.925" x2="6.0325" y2="32.385" width="0.254" layer="16"/>
+<wire x1="7.9375" y1="34.29" x2="6.0325" y2="32.385" width="0.254" layer="16"/>
 <wire x1="6.0325" y1="32.385" x2="5.78336875" y2="32.207340625" width="0.254" layer="16"/>
 </signal>
 <signal name="N$3">
@@ -1083,7 +1073,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="28.8925" y1="40.005" x2="26.67" y2="42.2275" width="0.508" layer="16"/>
 <wire x1="28.8925" y1="34.925" x2="28.8925" y2="40.005" width="0.508" layer="16"/>
 <wire x1="30.7975" y1="32.385" x2="28.8925" y2="34.925" width="0.508" layer="16"/>
-<wire x1="17.78" y1="40.9575" x2="17.78" y2="40.64" width="0.508" layer="16"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="40.9575" width="0.508" layer="16"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="U1" pad="2"/>

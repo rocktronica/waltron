@@ -3186,7 +3186,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="JPR1" gate="G$1" x="20.32" y="30.48" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="17.78" y="35.306" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="12.7" y="31.242" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="10.16" y="31.242" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="JS1" gate="G$1" x="104.14" y="55.88" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="99.314" y="53.34" size="1.778" layer="96" font="vector" rot="MR90"/>
@@ -3194,7 +3194,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="JPR2" gate="G$1" x="-2.54" y="-35.56" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="-5.08" y="-30.734" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="-10.16" y="-34.798" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="-12.7" y="-34.798" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="JS2" gate="G$1" x="104.14" y="-7.62" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="99.314" y="-10.16" size="1.778" layer="96" font="vector" rot="MR90"/>

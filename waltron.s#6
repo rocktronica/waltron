@@ -3125,7 +3125,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="D3" library="adafruit" deviceset="5MMRGBLED" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="On Switch"/>
 </parts>
 <sheets>
 <sheet>
@@ -3172,7 +3172,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC1" gate="P" x="-27.94" y="33.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-24.765" y="34.29" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J2" gate="G$1" x="-53.34" y="38.1" rot="MR180"/>
+<instance part="J2" gate="G$1" x="-53.34" y="38.1" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="-55.88" y="32.131" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="-55.88" y="43.307" size="1.778" layer="95" font="vector" rot="MR180"/>
+</instance>
 <instance part="J7" gate="G$1" x="208.28" y="38.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="217.17" y="32.131" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="210.82" y="43.307" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -3208,8 +3211,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="211.973553125" y="69.741753125" size="1.778" layer="94" rot="MR0"/>
 </instance>
 <instance part="J1" gate="G$1" x="-53.34" y="55.88" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="-55.88" y="60.706" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="-52.07" y="60.452" size="1.778" layer="95" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="-55.88" y="49.911" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="-52.832" y="59.69" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 </instances>
 <busses>

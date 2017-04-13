@@ -3110,7 +3110,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
 <part name="IC2" library="SparkFun-IC-Amplifiers" deviceset="LM386" device="" value="LM386"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="47uF"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="9v"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="9v batter"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="8ohm speaker"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="220"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="220"/>

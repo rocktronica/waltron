@@ -3211,7 +3211,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="211.973553125" y="69.741753125" size="1.778" layer="94" rot="MR0"/>
 </instance>
 <instance part="J1" gate="G$1" x="-53.34" y="55.88" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="-55.88" y="49.911" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="-55.88" y="49.276" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="-52.832" y="59.69" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 </instances>

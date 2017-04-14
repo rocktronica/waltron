@@ -147,12 +147,12 @@
 <wire x1="55.2325" y1="41.265" x2="0" y2="41.265" width="0" layer="20"/>
 <wire x1="0" y1="41.265" x2="0" y2="0" width="0" layer="20"/>
 <text x="10.38230625" y="34.826590625" size="0.8128" layer="21" font="vector" ratio="10">C1</text>
-<text x="53.724675" y="32.22383125" size="1.778" layer="21" font="vector" ratio="20" align="bottom-right">WALTRON</text>
-<text x="53.669240625" y="30.66281875" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">2999.1.1</text>
-<text x="53.140503125" y="28.068728125" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">tommy.sh</text>
+<text x="53.407175" y="31.58883125" size="1.778" layer="21" font="vector" ratio="20" align="bottom-right">WALTRON</text>
+<text x="53.351740625" y="30.02781875" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">2999.1.1</text>
+<text x="53.140503125" y="27.433728125" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">tommy.sh</text>
 <text x="42.268603125" y="36.20311875" size="0.8128" layer="21" font="vector" ratio="10">+</text>
 <text x="47.820784375" y="36.21513125" size="0.8128" layer="21" font="vector" ratio="10">-</text>
-<text x="53.724675" y="32.22383125" size="1.778" layer="1" font="vector" ratio="20" align="bottom-right">WALTRON</text>
+<text x="53.407175" y="31.58883125" size="1.778" layer="1" font="vector" ratio="20" align="bottom-right">WALTRON</text>
 <hole x="51.435" y="3.81" drill="3.302"/>
 <hole x="3.81" y="3.81" drill="3.302"/>
 <hole x="3.81" y="37.465" drill="3.302"/>

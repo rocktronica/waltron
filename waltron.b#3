@@ -149,7 +149,7 @@
 <text x="10.38230625" y="34.826590625" size="0.8128" layer="21" font="vector" ratio="10">C1</text>
 <text x="53.724675" y="32.22383125" size="1.778" layer="21" font="vector" ratio="20" align="bottom-right">WALTRON</text>
 <text x="53.669240625" y="30.66281875" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">2999.1.1</text>
-<text x="53.140503125" y="28.068728125" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">tommy.sh</text>
+<text x="53.458003125" y="28.068728125" size="0.8128" layer="21" font="vector" ratio="10" align="bottom-right">tommy.sh</text>
 <text x="42.268603125" y="36.20311875" size="0.8128" layer="21" font="vector" ratio="10">+</text>
 <text x="47.820784375" y="36.21513125" size="0.8128" layer="21" font="vector" ratio="10">-</text>
 <text x="53.724675" y="32.22383125" size="1.778" layer="1" font="vector" ratio="20" align="bottom-right">WALTRON</text>
@@ -157,10 +157,6 @@
 <hole x="3.81" y="3.81" drill="3.302"/>
 <hole x="3.81" y="37.465" drill="3.302"/>
 <hole x="51.435" y="37.465" drill="3.302"/>
-<wire x1="3.81" y1="39.37" x2="53.34" y2="39.37" width="0.254" layer="21"/>
-<wire x1="53.34" y1="39.37" x2="53.34" y2="1.905" width="0.254" layer="21"/>
-<wire x1="53.34" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="1.905" y2="39.37" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

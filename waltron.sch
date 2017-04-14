@@ -2899,78 +2899,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
-<packages>
-<package name="LED5MMRGB">
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21" curve="-286.260205"/>
-<wire x1="-1.524" y1="0" x2="0.254" y2="0" width="0.127" layer="25"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-1.905" width="0.127" layer="25"/>
-<wire x1="0.254" y1="-1.905" x2="-1.524" y2="-1.905" width="0.127" layer="25"/>
-<wire x1="-1.524" y1="-1.905" x2="-1.524" y2="0" width="0.127" layer="25"/>
-<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
-<pad name="1" x="-2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="2" x="-0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="3" x="0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="4" x="2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RGBLED_CC">
-<wire x1="-3.81" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
-<text x="-7.62" y="1.27" size="1.778" layer="94">&gt;NAME</text>
-<pin name="BLUE" x="-7.62" y="-15.24" length="middle" rot="R90"/>
-<pin name="GREEN" x="-3.81" y="-15.24" length="middle" rot="R90"/>
-<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
-<pin name="RED" x="3.81" y="-15.24" length="middle" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="5MMRGBLED">
-<gates>
-<gate name="G$1" symbol="RGBLED_CC" x="-5.08" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="LED5MMRGB">
-<connects>
-<connect gate="G$1" pin="BLUE" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="GREEN" pad="2"/>
-<connect gate="G$1" pin="RED" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Retired">
 <description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
 In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
@@ -3116,6 +3044,79 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="tommy">
+<packages>
+<package name="LED5MMRGB">
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.127" layer="22"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.127" layer="22" curve="286.260205"/>
+<wire x1="1.524" y1="0" x2="-0.254" y2="0" width="0.127" layer="26"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-1.905" width="0.127" layer="26"/>
+<wire x1="-0.254" y1="-1.905" x2="1.524" y2="-1.905" width="0.127" layer="26"/>
+<wire x1="1.524" y1="-1.905" x2="1.524" y2="0" width="0.127" layer="26"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="22"/>
+<pad name="4" x="2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="3" x="0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="-0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="1" x="-2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RGBLED_CC">
+<wire x1="-3.81" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="1.27" size="1.778" layer="94">&gt;NAME</text>
+<pin name="BLUE" x="-7.62" y="-15.24" length="middle" rot="R90"/>
+<pin name="GREEN" x="-3.81" y="-15.24" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
+<pin name="RED" x="3.81" y="-15.24" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5MMRGBLED">
+<description>Based on Adafruit's 5MMRGBLED but with polairty indicator mirrored</description>
+<gates>
+<gate name="G$1" symbol="RGBLED_CC" x="-5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="LED5MMRGB">
+<connects>
+<connect gate="G$1" pin="BLUE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GREEN" pad="2"/>
+<connect gate="G$1" pin="RED" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3156,7 +3157,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="D3" library="adafruit" deviceset="5MMRGBLED" device=""/>
+<part name="D3" library="tommy" deviceset="5MMRGBLED" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="On Switch"/>
 </parts>
 <sheets>
@@ -3239,8 +3240,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="99.314" y="-10.16" size="1.778" layer="96" font="vector" rot="MR90"/>
 <attribute name="NAME" x="99.568" y="-5.08" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="D3" gate="G$1" x="208.28" y="72.39" smashed="yes" rot="MR90">
-<attribute name="NAME" x="211.973553125" y="69.741753125" size="1.778" layer="94" rot="MR0"/>
+<instance part="D3" gate="G$1" x="214.63" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="219.593553125" y="72.498246875" size="1.778" layer="94" rot="R180"/>
 </instance>
 <instance part="J1" gate="G$1" x="-55.88" y="55.88" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="-58.42" y="49.276" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -3440,7 +3441,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$17" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="64.77" x2="193.04" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="64.77" x2="181.61" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="64.77" x2="181.61" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="81.28" x2="199.39" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
@@ -3507,8 +3510,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="144.78" y="-48.26"/>
 <wire x1="144.78" y1="27.94" x2="144.78" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="GND"/>
-<wire x1="193.04" y1="72.39" x2="186.69" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="186.69" y1="72.39" x2="186.69" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="73.66" x2="186.69" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="186.69" y1="73.66" x2="186.69" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3531,7 +3534,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="RED"/>
-<wire x1="157.48" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="76.2" x2="184.15" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="76.2" x2="184.15" y2="69.85" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="69.85" x2="199.39" y2="69.85" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="1">

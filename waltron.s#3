@@ -3054,10 +3054,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.254" y1="-1.905" x2="1.524" y2="-1.905" width="0.127" layer="26"/>
 <wire x1="1.524" y1="-1.905" x2="1.524" y2="0" width="0.127" layer="26"/>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="22"/>
-<pad name="RED" x="2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="GROUND" x="0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="GREEN" x="-0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="BLUE" x="-2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="4" x="2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="3" x="0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="-0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="1" x="-2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
 <text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
@@ -3104,10 +3104,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="LED5MMRGB">
 <connects>
-<connect gate="G$1" pin="BLUE" pad="BLUE"/>
-<connect gate="G$1" pin="GND" pad="GROUND"/>
-<connect gate="G$1" pin="GREEN" pad="GREEN"/>
-<connect gate="G$1" pin="RED" pad="RED"/>
+<connect gate="G$1" pin="BLUE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GREEN" pad="2"/>
+<connect gate="G$1" pin="RED" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

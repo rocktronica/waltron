@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3216,9 +3216,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D2" gate="G$1" x="93.98" y="12.7"/>
 <instance part="P+1" gate="1" x="-49.53" y="83.82"/>
 <instance part="GND1" gate="1" x="-49.53" y="-30.48"/>
-<instance part="VR1" gate="G$1" x="144.78" y="35.56" smashed="yes">
-<attribute name="NAME" x="142.24" y="38.1" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="142.24" y="35.56" size="1.778" layer="96" rot="R180"/>
+<instance part="VR1" gate="G$1" x="144.78" y="35.56" smashed="yes" rot="MR180">
+<attribute name="NAME" x="142.24" y="33.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="142.24" y="35.56" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="D3" gate="G$1" x="214.63" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="219.593553125" y="82.658246875" size="1.778" layer="94" rot="R180"/>
@@ -3456,21 +3456,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC1" gate="P" pin="VSS"/>
 <wire x1="-20.32" y1="33.02" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="27.94" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="VR1" gate="G$1" pin="A"/>
-<junction x="144.78" y="-33.02"/>
-<wire x1="144.78" y1="27.94" x2="144.78" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="GND"/>
 <wire x1="199.39" y1="73.66" x2="186.69" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="73.66" x2="186.69" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="138.43" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="E"/>
-<wire x1="144.78" y1="43.18" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="27.94" x2="144.78" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="144.78" y="-33.02"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3496,6 +3488,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-48.26" y1="53.34" x2="-40.64" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="53.34" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="VR1" gate="G$1" pin="A"/>
+<wire x1="138.43" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="53.34" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
